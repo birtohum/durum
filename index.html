@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Durum Panosu</title>
+<meta name="description" content="Bütün sitelerim her gün gerçek tarayıcıyla açılıyor, düğmelerine basılıyor. Hangisi çalışıyor, hangisi bozuk, hangisinin verisi eskidi?">
+<meta property="og:title" content="Durum Panosu">
+<meta property="og:description" content="Sitelerim her gün otomatik deneniyor. Bozuk olan da burada görünür.">
+<meta property="og:image" content="https://birtohum.github.io/durum/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%23111%22/%3E%3Ccircle cx=%2216%22 cy=%2216%22 r=%228%22 fill=%22%23ffb000%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--zemin:#0d0f10;--pano:#16191b;--hat:#2b3033;--yazi:#f1eee4;--soluk:#a3a79f;--sari:#ffb000;--yesil:#59e08a;--kirmizi:#ff5f52}
+*{box-sizing:border-box}
+html{background:var(--zemin)}
+body{margin:0;background:var(--zemin);color:var(--yazi);font:15px/1.5 "JetBrains Mono",ui-monospace,monospace}
+a{color:inherit}
+main{max-width:1060px;margin:0 auto;padding:40px 16px 24px}
+.ust{color:var(--sari);font-size:.76rem;letter-spacing:.24em;text-transform:uppercase;margin:0 0 8px}
+h1{font:900 clamp(3.2rem,11vw,7.4rem)/.88 "Big Shoulders Display",Impact,sans-serif;text-transform:uppercase;margin:0;letter-spacing:.005em}
+h1 b{color:var(--sari);font-weight:900}
+.lede{max-width:66ch;color:var(--soluk);margin:16px 0 0}
+.tablo{display:flex;flex-wrap:wrap;gap:0;margin:26px 0 8px;border:1px solid var(--hat);background:var(--pano)}
+.tablo div{flex:1 1 140px;padding:12px 16px;border-right:1px solid var(--hat)}
+.tablo div:last-child{border-right:0}
+.tablo b{display:block;font:900 clamp(2.4rem,6vw,3.6rem)/1 "Big Shoulders Display",Impact,sans-serif}
+.tablo span{font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--soluk)}
+.y b{color:var(--yesil)}.s b{color:var(--sari)}.k b{color:var(--kirmizi)}
+.zaman{font-size:.84rem;color:var(--soluk);margin:10px 0 26px}
+.basliklar,summary.sat{display:grid;grid-template-columns:14px minmax(0,1fr) 110px 200px;gap:14px;align-items:center}
+.basliklar{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--soluk);padding:0 12px 8px;border-bottom:2px solid var(--sari)}
+details{border-bottom:1px solid var(--hat)}
+summary.sat{list-style:none;cursor:pointer;padding:11px 12px;min-height:46px}
+summary.sat::-webkit-details-marker{display:none}
+summary.sat:hover,details[open] summary.sat{background:var(--pano)}
+summary.sat:focus-visible,a:focus-visible{outline:2px solid var(--sari);outline-offset:-2px}
+.lamba{width:12px;height:12px;border-radius:50%;background:var(--yesil);box-shadow:0 0 9px var(--yesil)}
+.uyari .lamba{background:var(--sari);box-shadow:0 0 9px var(--sari)}
+.bozuk .lamba{background:var(--kirmizi);box-shadow:0 0 11px var(--kirmizi)}
+.ad{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500}
+.dur{font-weight:700;font-size:.8rem;letter-spacing:.06em;color:var(--yesil)}
+.uyari .dur{color:var(--sari)}.bozuk .dur{color:var(--kirmizi)}
+.serit{display:flex;gap:2px;justify-content:flex-end}
+.serit i{display:block;width:5px;height:18px;background:#272b2e}
+.serit i.t{background:var(--yesil)}.serit i.u{background:var(--sari)}.serit i.b{background:var(--kirmizi)}
+.ic{padding:4px 12px 14px 40px;font-size:.86rem;color:var(--soluk);background:var(--pano)}
+.ic p{margin:4px 0}.ic b{color:var(--yazi);font-weight:500}.ic .not{color:var(--sari)}.bozuk .ic .not{color:var(--kirmizi)}
+footer{max-width:1060px;margin:0 auto;padding:24px 16px 44px;color:var(--soluk);font-size:.84rem}
+footer p{max-width:78ch;margin:8px 0}
+footer b{color:var(--yazi);font-weight:500}
+@media (max-width:640px){
+  .basliklar{display:none}
+  summary.sat{grid-template-columns:14px minmax(0,1fr) auto;gap:10px}
+  .serit{display:none}
+  .ic{padding-left:12px}
+  .tablo div{flex:1 1 33%;padding:10px 12px}
+}
+</style>
+</head>
+<body>
+<main>
+  <p class="ust">Her gün otomatik deneme</p>
+  <h1 id="manset">Durum <b>Panosu</b></h1>
+  <p class="lede">Bir sitenin ekran görüntüsü güzel olabilir, düğmesi yine de çalışmayabilir. Bu yüzden bütün sitelerim her gün gerçek bir tarayıcıyla açılıyor, ana işlevleri deneniyor ve verisi eskimiş mi diye bakılıyor. Bozuk olan da burada görünür.</p>
+  <div class="tablo" aria-live="polite">
+    <div class="y"><b id="sT">–</b><span>çalışıyor</span></div>
+    <div class="s"><b id="sU">–</b><span>uyarı</span></div>
+    <div class="k"><b id="sB">–</b><span>bozuk</span></div>
+  </div>
+  <p class="zaman" id="zaman">Yükleniyor…</p>
+  <div class="basliklar"><span></span><span>Site</span><span>Durum</span><span style="text-align:right">Son <span id="gunSay">30</span> gün</span></div>
+  <div id="liste"></div>
+</main>
+<footer>
+  <p><b>Ne deneniyor?</b> Her satırı açınca o sitede denenen şey yazıyor. Yanında yalnız "sayfa açılıyor" yazan sitelerde düğmeler ayrıca denenmiyor; bu site çalışıyor demek bütün özellikleri kusursuz demek değil.</p>
+  <p><b>Uyarı ne demek?</b> Site açılıyor ama verisi eskimiş, küçük bir dosyası eksik ya da kullandığı dış servis yanıt vermemiş. Bazı siteler bilgisayarımda güncelleniyor; bilgisayar kapalıysa verisi eskir, bu da burada görünür.</p>
+  <p><b>Sınırlar.</b> Deneme günde bir kez, GitHub'ın sunucularından yapılıyor; iki deneme arasındaki kısa kesintiyi görmez. Hata bulunursa 20 saniye sonra bir kez daha denenir. Form gönderilmez, ücretli model çağrılmaz, ziyaret sayacı çalıştırılmaz. Geçmiş bu panonun kurulduğu günden başlar.</p>
+  <p>Kod: <a href="https://github.com/birtohum/durum">github.com/birtohum/durum</a> · <a href="https://birtohum.github.io/">birtohum</a></p>
+</footer>
+<script src="uygulama.js"></script>
+<script>window.goatcounter={path:location.pathname}</script>
+<script data-goatcounter="https://birtohum.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
