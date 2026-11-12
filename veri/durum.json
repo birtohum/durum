@@ -1,15 +1,15 @@
 {
- "zaman": "2026-11-11T09:03:43.253Z",
+ "zaman": "2026-11-12T09:09:02.253Z",
  "toplam": 48,
- "tamam": 46,
- "uyari": 2,
+ "tamam": 45,
+ "uyari": 3,
  "bozuk": 0,
  "siteler": [
   {
    "u": "https://birtohum.github.io/",
    "ad": "Portfolyo",
    "ne": "Proje kartları görünmeli",
-   "sn": 2.9,
+   "sn": 2.8,
    "sorun": [],
    "uyari": [],
    "taze": {
@@ -34,11 +34,11 @@
    "u": "https://birtohum.github.io/il-kimligi/",
    "ad": "İlin Kimliği: 81 plaka, 81 il",
    "ne": "Arama kutusuna \"muş\" yazınca tek il kalmalı",
-   "sn": 3,
+   "sn": 2.9,
    "sorun": [],
    "uyari": [],
    "taze": {
-    "saat": 50,
+    "saat": 74,
     "sinir": 240,
     "tamam": true,
     "yerel": false,
@@ -50,7 +50,7 @@
    "u": "https://birtohum.github.io/goc-haritasi/",
    "ad": "Memleketten kim gitti?",
    "ne": "İl değiştirince oklar ve liste yenilenmeli",
-   "sn": 3.8,
+   "sn": 3.9,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -86,7 +86,7 @@
    "u": "https://birtohum.github.io/mahallen-depremde/",
    "ad": "Mahallen büyük depremde ne yaşar?",
    "ne": "Türkçe harfsiz \"caferaga\" bulunmalı",
-   "sn": 2.9,
+   "sn": 3.5,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -95,7 +95,7 @@
    "u": "https://birtohum.github.io/senin-turkiyen/",
    "ad": "Senin Türkiyen",
    "ne": "Formdan kart çıkmalı, yazılan ad hiçbir isteğe girmemeli",
-   "sn": 3.9,
+   "sn": 4,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -104,7 +104,7 @@
    "u": "https://birtohum.github.io/sokak-adlari/",
    "ad": "Sokaklarımız Kimin Adını Taşıyor?",
    "ne": "İl seçince doğru ekle sonuç çıkmalı",
-   "sn": 3.1,
+   "sn": 3.3,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -113,11 +113,11 @@
    "u": "https://birtohum.github.io/maasim-kac-ekmek/",
    "ad": "Maaşım kaç ekmek?",
    "ne": "Ekmek fiyatı yazınca hesap çıkmalı",
-   "sn": 3,
+   "sn": 3.1,
    "sorun": [],
    "uyari": [],
    "taze": {
-    "saat": 123,
+    "saat": 147,
     "sinir": 960,
     "tamam": true,
     "yerel": false,
@@ -129,7 +129,7 @@
    "u": "https://birtohum.github.io/gunes-kacta-doguyor/",
    "ad": "Senin ilinde güneş kaçta doğuyor?",
    "ne": "Saat dilimi düğmesi çalışmalı",
-   "sn": 2.9,
+   "sn": 3,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -138,7 +138,7 @@
    "u": "https://birtohum.github.io/sehrinin-kuslari/",
    "ad": "Şehrinde hangi kuşlar var?",
    "ne": "İl seçince o ilin kuşları çıkmalı",
-   "sn": 3.1,
+   "sn": 3.3,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -147,7 +147,7 @@
    "u": "https://birtohum.github.io/kelimelerin-kokeni/",
    "ad": "Bu kelimeler nereden geldi?",
    "ne": "Yazılan metnin kökenleri hesaplanmalı",
-   "sn": 3,
+   "sn": 3.2,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -156,7 +156,7 @@
    "u": "https://birtohum.github.io/damlanin-yolu/",
    "ad": "Yağmur damlan nereye akar?",
    "ne": "Erzurum'a düşen damla Basra'ya ulaşmalı",
-   "sn": 6.9,
+   "sn": 7.1,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -165,7 +165,7 @@
    "u": "https://birtohum.github.io/istanbul-30-dakika/",
    "ad": "İstanbul'da 30 dakikada nereye gidebilirsin?",
    "ne": "Hazır nokta seçince erişim hesaplanmalı",
-   "sn": 4.3,
+   "sn": 4.4,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -174,7 +174,7 @@
    "u": "https://birtohum.github.io/dogdugum-gun/?t=2020-11-06&il=34",
    "ad": "Doğduğun gün hava nasıldı?",
    "ne": "Bir doğum günü için hava verisi gelmeli",
-   "sn": 5.5,
+   "sn": 5.6,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -183,11 +183,11 @@
    "u": "https://birtohum.github.io/gazete-ozeti/",
    "ad": "Gazete Özeti",
    "ne": "O günün maddeleri görünmeli",
-   "sn": 2.4,
+   "sn": 2.6,
    "sorun": [],
    "uyari": [],
    "taze": {
-    "saat": 2,
+    "saat": 3,
     "sinir": 96,
     "tamam": true,
     "yerel": true,
@@ -199,7 +199,7 @@
    "u": "https://birtohum.github.io/turkce-yz-karnesi/",
    "ad": "Türkçe Yapay Zekâ Karnesi",
    "ne": "Sonuç tablosu görünmeli",
-   "sn": 3.2,
+   "sn": 4.1,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -208,7 +208,7 @@
    "u": "https://birtohum.github.io/alti-ipucu/",
    "ad": "Altı İpucu",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.5,
+   "sn": 2.6,
    "sorun": [],
    "uyari": [],
    "taze": {
@@ -224,7 +224,7 @@
    "u": "https://birtohum.github.io/barajlar-uzaydan/",
    "ad": "İstanbul'un barajları uzaydan",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.3,
+   "sn": 2.7,
    "sorun": [],
    "uyari": [],
    "taze": {
@@ -240,7 +240,7 @@
    "u": "https://birtohum.github.io/bilgi-yarismasi/",
    "ad": "Türkiye Bilgi Yarışması",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2,
+   "sn": 2.3,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -249,7 +249,7 @@
    "u": "https://birtohum.github.io/bu-gece-gokyuzu/",
    "ad": "Bu gece başının üstünden ne geçecek?",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.5,
+   "sn": 2.8,
    "sorun": [],
    "uyari": [],
    "taze": {
@@ -265,7 +265,7 @@
    "u": "https://birtohum.github.io/denizler-isiniyor/",
    "ad": "Denizler ısınıyor mu?",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.4,
+   "sn": 2.5,
    "sorun": [],
    "uyari": [],
    "taze": {
@@ -281,7 +281,7 @@
    "u": "https://birtohum.github.io/gorsel-iz/",
    "ad": "Görselin İzi: bu fotoğraf nereden geldi?",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.4,
+   "sn": 2.6,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -290,13 +290,13 @@
    "u": "https://birtohum.github.io/iett-dakiklik/",
    "ad": "Hattın Kaç Dakika Geç",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.4,
+   "sn": 3.3,
    "sorun": [],
    "uyari": [
-    "Bilgisayar kapalıyken güncellenmiyor (son kayıt 125 saat önce)"
+    "Bilgisayar kapalıyken güncellenmiyor (son kayıt 149 saat önce)"
    ],
    "taze": {
-    "saat": 125,
+    "saat": 149,
     "sinir": 96,
     "tamam": false,
     "yerel": true,
@@ -327,10 +327,10 @@
    "sn": 2.5,
    "sorun": [],
    "uyari": [
-    "Bilgisayar kapalıyken güncellenmiyor (son kayıt 125 saat önce)"
+    "Bilgisayar kapalıyken güncellenmiyor (son kayıt 149 saat önce)"
    ],
    "taze": {
-    "saat": 125,
+    "saat": 149,
     "sinir": 96,
     "tamam": false,
     "yerel": true,
@@ -342,7 +342,7 @@
    "u": "https://birtohum.github.io/kaynas/",
    "ad": "Kaynaş: Yaşıtlarınla tanış",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 4.2,
+   "sn": 4.6,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -376,7 +376,7 @@
    "u": "https://birtohum.github.io/meclisin-dili/",
    "ad": "Meclis'in Dili",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 3.1,
+   "sn": 3.2,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -405,21 +405,23 @@
    "ne": "Sayfa açılıyor, hata vermiyor",
    "sn": 3.1,
    "sorun": [],
-   "uyari": [],
+   "uyari": [
+    "Son zamanlanmış çalışma başarısız (son kayıt 3 saat önce)"
+   ],
    "taze": {
     "saat": 3,
     "sinir": 96,
-    "tamam": true,
+    "tamam": false,
     "yerel": false,
-    "not": ""
+    "not": "Son zamanlanmış çalışma başarısız"
    },
-   "durum": "tamam"
+   "durum": "uyari"
   },
   {
    "u": "https://birtohum.github.io/sepet-enflasyonu/",
    "ad": "Sepet Enflasyonu",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.5,
+   "sn": 2.9,
    "sorun": [],
    "uyari": [],
    "taze": {
@@ -444,7 +446,7 @@
    "u": "https://birtohum.github.io/tohum/",
    "ad": "Tohum",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.4,
+   "sn": 2.8,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -453,11 +455,11 @@
    "u": "https://birtohum.github.io/turk-dizileri-dunyada/",
    "ad": "Türk dizileri dünyada",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.6,
+   "sn": 2.4,
    "sorun": [],
    "uyari": [],
    "taze": {
-    "saat": 74,
+    "saat": 98,
     "sinir": 960,
     "tamam": true,
     "yerel": false,
@@ -469,7 +471,7 @@
    "u": "https://birtohum.github.io/turkiye-geceleri/",
    "ad": "Türkiye geceleri",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 3.2,
+   "sn": 2.5,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -478,7 +480,7 @@
    "u": "https://birtohum.github.io/turkiye-merak/",
    "ad": "Türkiye Merak",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.7,
+   "sn": 2.6,
    "sorun": [],
    "uyari": [],
    "taze": {
@@ -494,7 +496,7 @@
    "u": "https://birtohum.github.io/turkiye-sallandi/",
    "ad": "Türkiye Sallandı",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 2.9,
+   "sn": 2.8,
    "sorun": [],
    "uyari": [],
    "taze": {
@@ -519,7 +521,7 @@
    "u": "https://birtohum.github.io/bizim-masa/",
    "ad": "Bizim Masa",
    "ne": "Karşılama ekranı açılmalı",
-   "sn": 4.6,
+   "sn": 3.3,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -528,7 +530,7 @@
    "u": "https://birtohum.github.io/zabita/",
    "ad": "Zabıta Geliyor!",
    "ne": "Oyun tuvali yüklenmeli (oynanışı denenmiyor)",
-   "sn": 33.3,
+   "sn": 35.3,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
@@ -555,7 +557,7 @@
    "u": "https://seslendir.site/",
    "ad": "Seslendir",
    "ne": "Sayfa açılıyor, hata vermiyor",
-   "sn": 8.6,
+   "sn": 7.6,
    "sorun": [],
    "uyari": [],
    "durum": "tamam"
